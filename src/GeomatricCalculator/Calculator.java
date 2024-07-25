@@ -1,6 +1,7 @@
 package GeomatricCalculator;
 
 public class Calculator {
+    //필드 선언
     private Circle circle;
     private Ractangle ractangle;
     private Triangle triangle;
@@ -12,6 +13,7 @@ public class Calculator {
         this.triangle = new Triangle();
     }
 
+    //메서드
     public double circlecal(int radius) {
         return circle.calculate(radius);
     }
