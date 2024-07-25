@@ -1,4 +1,4 @@
-package car;
+package Car;
 
 public class Car {
     //1. 클래스 선언 V
